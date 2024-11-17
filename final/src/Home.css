@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.flex1{
+    display:flex;
+    flex-direction:column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items:center;
+    gap:1vh;
+    background-color:white;
+    
+}
+.Head{
+    flex-basis:13vh;
+    font-size:50px;
+    margin-top:0px; 
+    margin-bottom:0px; 
+    display:flex; 
+    align-items:center; 
+    width:100vw;
+    color:black;
+    background-color:white;
+    padding-left:7.5vw;
+    box-shadow: 0px 1px 20px rgb(56, 56, 56);
+    
+}
+
+.List{
+    
+    flex-basis:85vh;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding:30px;
+    overflow-y:auto;
+    width:85vw;
+    overflow-x:hidden;
+    align-items:center;
+    background-color:white;
+    box-shadow: 0px 4px 20px rgb(56, 56, 56); 
+    margin-bottom:1vh;
+
+
+}
+.List::-webkit-scrollbar {
+    width: 12px; 
+}
+.List::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius:15px;
+}
+.List::-webkit-scrollbar-thumb {
+    background-color: rgb(55, 55, 55); 
+    border-radius: 10px;     
+    border: 2px solid #ccc;  
+}
+.List::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+

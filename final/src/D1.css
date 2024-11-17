@@ -1,0 +1,29 @@
+.Flex2{
+    display:flex;
+    flex-direction:column;
+    gap:5vh;
+    padding:10px;
+    align-items:center;
+}
+.GS{
+    flex-basis:30vh;
+    width:25vw;
+    background-color:black;
+}
+.PI{
+    flex-basis:30vh;
+    width:25vw;
+    background-color:black;  
+}
+.ls{
+    display:flex;
+    flex-direction:column;
+    padding-left:2.5vw;
+    margin-top:5vh;
+    gap:2vh;
+}
+.but{
+    margin-left:2.5vw;
+    align-self:flex-start;
+    flex-basis:fit-content;
+}

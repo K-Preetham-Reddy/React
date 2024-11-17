@@ -1,0 +1,13 @@
+.list1{
+    display:flex;
+    border:1px solid black;
+    padding:10px;
+    flex-basis:100px;
+    justify-content:space-around;
+    border-radius:10px;
+
+}
+.list1:hover{
+    border:2px solid black;
+
+}
